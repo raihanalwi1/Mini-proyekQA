@@ -4,9 +4,8 @@ Feature: Register
   So I can manage my new account
 
   Scenario Outline:
-    Given I am on the home page
-    And I click login button
-    And I click register button
+    Given I am on the register page
+#    And I click register button
     When I input fullname register "<fullname>"
     And I input email register "<emailReg>"
     And I input password register "<passwordReg>"

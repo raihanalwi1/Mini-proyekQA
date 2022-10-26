@@ -1,6 +1,7 @@
 package starter.stepdefinitions;
 
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
@@ -12,6 +13,10 @@ public class RegisterStep {
     LoginPage lp;
     @Steps
     RegisterPage rp;
+    @Given("I am on the register page")
+    public void iAmOnTheRegisterPage() {
+        rp.openRegister();
+    }
     @And("I click register button")
     public void iClickRegisterButton() {
         rp.ClickBtnRegister();
@@ -45,4 +50,6 @@ public class RegisterStep {
             rp.ErrorMessage();
         }
     }
+
+
 }

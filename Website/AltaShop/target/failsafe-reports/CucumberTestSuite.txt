@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 102.795 s <<< FAILURE! - in CucumberTestSuite
-Register. #1  Time elapsed: 9.862 s  <<< ERROR!
+Tests run: 13, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 115.808 s <<< FAILURE! - in CucumberTestSuite
+Register. #1  Time elapsed: 9.881 s  <<< ERROR!
 net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
 Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //button[@class = 'v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)
 Caused by: org.openqa.selenium.NoSuchElementException: 
@@ -12,11 +12,11 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'DESKTOP-3MAQDS2', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fe2a59b24a4ff882f531ec5e9a63eb7a, findElement {using=xpath, value=//button[@class = 'v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\alwi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62303}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62303/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fe2a59b24a4ff882f531ec5e9a63eb7a
+Command: [dec9b90465a16d0d2ec2e06c03c644d2, findElement {using=xpath, value=//button[@class = 'v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\alwi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63010}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63010/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dec9b90465a16d0d2ec2e06c03c644d2
 
-Register. #2  Time elapsed: 9.63 s  <<< ERROR!
+Register. #2  Time elapsed: 10.2 s  <<< ERROR!
 net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
 Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //button[@class = 'v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)
 Caused by: org.openqa.selenium.NoSuchElementException: 
@@ -26,11 +26,11 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'DESKTOP-3MAQDS2', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e2fca8b82314674a44aec2f1aa5186c2, findElement {using=xpath, value=//button[@class = 'v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\alwi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62333}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62333/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e2fca8b82314674a44aec2f1aa5186c2
+Command: [535f9b7633be45040e4b9b027186d6cf, findElement {using=xpath, value=//button[@class = 'v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\alwi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63054}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63054/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 535f9b7633be45040e4b9b027186d6cf
 
-Register. #3  Time elapsed: 9.539 s  <<< ERROR!
+Register. #3  Time elapsed: 10.009 s  <<< ERROR!
 net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
 Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //button[@class = 'v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)
 Caused by: org.openqa.selenium.NoSuchElementException: 
@@ -40,11 +40,11 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'DESKTOP-3MAQDS2', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bdb2b13a04b08959ecb615c1230442ba, findElement {using=xpath, value=//button[@class = 'v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\alwi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62370}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62370/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bdb2b13a04b08959ecb615c1230442ba
+Command: [27767eebc73a218ca8b54f522174b2bf, findElement {using=xpath, value=//button[@class = 'v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\alwi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63090/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27767eebc73a218ca8b54f522174b2bf
 
-Register. #4  Time elapsed: 9.621 s  <<< ERROR!
+Register. #4  Time elapsed: 10.378 s  <<< ERROR!
 net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
 Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //button[@class = 'v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)
 Caused by: org.openqa.selenium.NoSuchElementException: 
@@ -54,11 +54,11 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'DESKTOP-3MAQDS2', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [087da8ef20fe3ad1cd1f0963d442fa55, findElement {using=xpath, value=//button[@class = 'v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\alwi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62401}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62401/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 087da8ef20fe3ad1cd1f0963d442fa55
+Command: [62f4ed8b3de3d0fd21068f642d22f62d, findElement {using=xpath, value=//button[@class = 'v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\alwi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63128}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63128/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 62f4ed8b3de3d0fd21068f642d22f62d
 
-Register. #5  Time elapsed: 9.602 s  <<< ERROR!
+Register. #5  Time elapsed: 10.804 s  <<< ERROR!
 net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
 Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //button[@class = 'v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)
 Caused by: org.openqa.selenium.NoSuchElementException: 
@@ -68,7 +68,7 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'DESKTOP-3MAQDS2', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4e2f02ec7e6445d1af470bf4f2bd1179, findElement {using=xpath, value=//button[@class = 'v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\alwi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62430}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62430/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e2f02ec7e6445d1af470bf4f2bd1179
+Command: [337190980dc77e15ab5f4a85f93ab228, findElement {using=xpath, value=//button[@class = 'v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\alwi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63170}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63170/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 337190980dc77e15ab5f4a85f93ab228
 

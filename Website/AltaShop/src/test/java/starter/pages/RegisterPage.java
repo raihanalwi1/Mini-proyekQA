@@ -2,22 +2,24 @@ package starter.pages;
 
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;
+import starter.utils.GeneratedString;
 
 public class RegisterPage extends PageObject {
     public void openRegister(){
         openAt("/auth/register");
     }
     private By inputFullname(){
-        return By.id("input-701");
+        return By.id("input-18");
     }
     private By inputEmail(){
-        return By.id("input-704");
+        return By.id("input-21");
+
     }
     private By inputPassword(){
-        return By.id("input-707");
+        return By.id("input-24");
     }
     private By btnRegister(){
-        return By.xpath("//a[text() = 'Register']");
+        return By.xpath("//div/a[text() = 'Register']");
     }
     private By btnSubmitRegister(){
         return By.xpath("//button[@class ='v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary']");
@@ -26,9 +28,13 @@ public class RegisterPage extends PageObject {
         return By.xpath("//div[@role ='alert']");
     }
     public void InputFullname(String fullname){
+        GeneratedString generatedString = new GeneratedString();
+        fullname = generatedString.randomFullname();
         $(inputFullname()).type(fullname);
     }
     public void InputEmail(String email){
+        GeneratedString generatedString = new GeneratedString();
+        email = generatedString.randomEmail();
         $(inputEmail()).type(email);
     }
     public void InputPassword(String password){

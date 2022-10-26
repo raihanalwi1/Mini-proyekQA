@@ -3,6 +3,7 @@ Feature: Login
   I want to login
   So I can manage my transaction
 
+  @Logout
   Scenario Outline: Login with email and password
     Given I am on the login page
     When I input email "<email>"

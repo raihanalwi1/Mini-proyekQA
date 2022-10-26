@@ -170,7 +170,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 26-10-2022 04:07:54</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 26-10-2022 20:25:28</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -239,43 +239,43 @@
                                                                         <td>
                                                                             <i class="bi bi-flag-fill"></i> Tests Started
                                                                         </td>
-                                                                        <td>Oct 26, 2022 04:06:21</td>
+                                                                        <td>Oct 26, 2022 20:23:47</td>
                                                                     </tr>
                                                                     <tr scope="row">
                                                                         <td>
                                                                             <i class="bi bi-stop-circle"></i> Tests Finished
                                                                         </td>
-                                                                        <td>Oct 26, 2022 04:06:26</td>
+                                                                        <td>Oct 26, 2022 20:23:53</td>
                                                                     </tr>
                                                                     <tr scope="row">
                                                                         <td>
                                                                             <i class="bi bi-stopwatch"></i> Total Duration
                                                                         </td>
-                                                                        <td>4s</td>
+                                                                        <td>5s</td>
                                                                     </tr>
                                                                     <tr scope="row">
                                                                         <td>
                                                                             <i class="bi bi-trophy"></i> Fastest Test
                                                                         </td>
-                                                                        <td>4s</td>
+                                                                        <td>5s</td>
                                                                     </tr>
                                                                     <tr scope="row">
                                                                         <td>
                                                                             <i class="bi bi-skip-start"></i> Slowest Test
                                                                         </td>
-                                                                        <td>4s</td>
+                                                                        <td>5s</td>
                                                                     </tr>
                                                                     <tr scope="row">
                                                                         <td>
                                                                             <i class="bi bi-stopwatch"></i> Average Execution Time
                                                                         </td>
-                                                                        <td>4s</td>
+                                                                        <td>5s</td>
                                                                     </tr>
                                                                     <tr scope="row">
                                                                         <td>
                                                                             <i class="bi bi-stopwatch-fill"></i> Total Execution Time
                                                                         </td>
-                                                                        <td>4s</td>
+                                                                        <td>5s</td>
                                                                     </tr>
                                                                     </tbody>
                                                                 </table>
@@ -391,8 +391,8 @@
                                                         <a href="ccd00864231be3ca2062654b59590ffbcb83aa771eaeccd9783da280908e619f.html">Home product to buy</a>
                                                     </td>
                                                     <td>3</td>
-                                                    <td>04:06:21</td>
-                                                    <td>4s 277ms</td>
+                                                    <td>20:23:47</td>
+                                                    <td>5s 912ms</td>
                                                     <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
                                                             style="display:none">SUCCESS</span></td>
                                                 </tr>
@@ -703,6 +703,11 @@
                 link: "9579f7e5923bc09bceee55cd19037c1e5d97fe5c61570ad0282af963dad67653.html"
             },
             {
+                title: 'Logout',
+                result: 'SUCCESS',
+                link: "cc8248abab6b164b18c889afb85945620f8bde1409264023a27036ab64a553ef.html"
+            },
+            {
                 title: 'Category',
                 result: 'SUCCESS',
                 link: "0565d979ccfefcfd4b0357c48168e26bb95c11de5a56aee31e65b0a960b0e44c.html"
@@ -711,47 +716,48 @@
         const coverageData = {
             labels: [
                 'Home',
+                'Logout',
                 'Category',
             ],
             datasets: [
                 {
                     label: ['Passing Tests'],
-                    data: [1,null],
+                    data: [1,null,null],
                     backgroundColor: [ 'rgba(153,204,51,0.5)' ]
                 },
                 {
                     label: ['Pending Tests'],
-                    data: [null,null],
+                    data: [null,null,null],
                     backgroundColor: [ 'rgba(165, 199, 238, 0.5)' ]
                 },
                 {
                     label: ['Ignored Tests'],
-                    data: [null,null],
+                    data: [null,null,null],
                     backgroundColor: [ 'rgba(168, 168, 168, 0.5)' ]
                 },
                 {
                     label: ['Skipped Tests'],
-                    data: [null,null],
+                    data: [null,null,null],
                     backgroundColor: [ 'rgba(238, 224, 152, 0.75)' ]
                 },
                 {
                     label: ['Aborted Tests'],
-                    data: [null,null],
+                    data: [null,null,null],
                     backgroundColor: [ 'rgba(255, 153, 102, 0.5)' ]
                 },
                 {
                     label: ['Failed Tests'],
-                    data: [null,null],
+                    data: [null,null,null],
                     backgroundColor: [ 'rgba(255, 22, 49, 0.5)' ]
                 },
                 {
                     label: ['Errors'],
-                    data: [null,null],
+                    data: [null,null,null],
                     backgroundColor: [ 'rgba(255, 97, 8, 0.5)' ]
                 },
                 {
                     label: ['Compromised Tests'],
-                    data: [null,null],
+                    data: [null,null,null],
                     backgroundColor: [ 'rgba(255, 104, 255, 0.5)' ]
                 },
             ]
