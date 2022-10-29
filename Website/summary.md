@@ -1,1 +1,0 @@
-sabar lagi dibuat

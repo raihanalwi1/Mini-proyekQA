@@ -1,0 +1,14 @@
+starter\stepdefinitions\RegisterStep.class
+starter\pages\HomePage.class
+starter\stepdefinitions\LoginStep.class
+starter\utils\GeneratedString.class
+starter\pages\CategoryPage.class
+starter\pages\LogoutPage.class
+starter\stepdefinitions\CategoryStep.class
+starter\stepdefinitions\HomeStep.class
+CucumberTestSuite.class
+starter\pages\LoginPage.class
+starter\stepdefinitions\OrderStep.class
+starter\pages\RegisterPage.class
+starter\pages\OrderPage.class
+starter\stepdefinitions\LogoutStep.class

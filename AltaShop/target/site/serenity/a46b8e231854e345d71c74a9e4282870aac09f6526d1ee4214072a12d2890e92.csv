@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Home","Home detail product","SUCCESS","2022-10-29T18:12:10.5877439+07:00[Asia/Jakarta]","0.0","5.53"
+"Home","Home product to buy","SUCCESS","2022-10-29T18:12:16.8314775+07:00[Asia/Jakarta]","0.0","4.54"
+"Home","Transaction list","SUCCESS","2022-10-29T18:12:22.0105115+07:00[Asia/Jakarta]","0.0","4.05"
+"Home","Transaction list without login","SUCCESS","2022-10-29T18:12:26.7093706+07:00[Asia/Jakarta]","0.0","2.69"

@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="bootstrap-icons/font/bootstrap-icons.css"><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.11.3/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.11.3/datatables.min.js"></script>
+<script type="text/javascript" src="datatables/1.11.3/time-elapsed-dhms.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/>
+<!--CHART.JS-->
+<script src="chartjs/chart.js"></script>
+<script src="chartjs/chartjs-plugin-datalabels@2.0.0"></script>
+<script src="chartjs/patternomaly.min.js"></script>
+<script>
+    // Register the plugin to all charts:
+    Chart.register(ChartDataLabels);
+</script>
+<!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="736b1aa347ad0cc02b60562823f1ec2654d77d4dedca53e5400dc635edd55b88.html">Register</a></span>
+                > <span class="truncate-60"><a
+                    href="c1576ebeb153caf92575c95ed491b360be9569c65f75bc7acb7d13fd09f38307.html">Register account </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="bi bi-journal-check"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="bi bi-journal-text"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 29-10-2022 18:13</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fs-2 bi bi-chat-left-quote large-icon"></i>
+                                    <span class="story-header-title">Register </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user<br />
+I want to register account<br />
+So I can manage my new account
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Register account
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given I am on the register page<br>When I input fullname register "&lt;fullname&gt;"<br>And I input email register "&lt;emailReg&gt;"<br>And I input password register "&lt;passwordReg&gt;"<br>And I click submit register button<br>Then I will get the result register "&lt;result&gt;"</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="731f2d5e65f52e6f18ed786e82312868c45da0a3a93b12f69eba2a4af226a333.png" title=" 1: Register account ({fullname=benar, emailReg=benar, passwordReg=1234, result=success})" width="809"/>
+                <img src="731f2d5e65f52e6f18ed786e82312868c45da0a3a93b12f69eba2a4af226a333.png" title=" Given I am on the register page" width="809"/>
+                <img src="731f2d5e65f52e6f18ed786e82312868c45da0a3a93b12f69eba2a4af226a333.png" title=" When I input fullname register &quot;benar&quot;" width="809"/>
+                <img src="cd2d06f8064d85ca8cc5a2ee2f905d362d296a2f84893f3a404f7613ca5f8599.png" title=" When I input fullname register &quot;benar&quot; (completed)" width="809"/>
+                <img src="cd2d06f8064d85ca8cc5a2ee2f905d362d296a2f84893f3a404f7613ca5f8599.png" title=" And I input email register &quot;benar&quot;" width="809"/>
+                <img src="4bc85ef51675cf18d1106f598e5d40bbfd9be80e98692e98f3c42771fd48c58a.png" title=" And I input email register &quot;benar&quot; (completed)" width="809"/>
+                <img src="4bc85ef51675cf18d1106f598e5d40bbfd9be80e98692e98f3c42771fd48c58a.png" title=" And I input password register &quot;1234&quot;" width="809"/>
+                <img src="a4936b65530aca623ce7ed4a5371d669ee44508f2c69565c59c7a1a58f1b107f.png" title=" And I input password register &quot;1234&quot; (completed)" width="809"/>
+                <img src="a4936b65530aca623ce7ed4a5371d669ee44508f2c69565c59c7a1a58f1b107f.png" title=" And I click submit register button" width="809"/>
+                <img src="a84a196c806e8f24ca19243f3c46d111875308fc41e7a3b88cdbf97b5e9f42c6.png" title=" And I click submit register button (completed)" width="809"/>
+                <img src="a84a196c806e8f24ca19243f3c46d111875308fc41e7a3b88cdbf97b5e9f42c6.png" title=" Then I will get the result register &quot;success&quot;" width="809"/>
+                <img src="4a081d05db2e6be9b3256b332b844d9c53d5aa88207142e6b6c18ed6759b787c.png" title=" Then I will get the result register &quot;success&quot; (completed)" width="809"/>
+                <img src="4a081d05db2e6be9b3256b332b844d9c53d5aa88207142e6b6c18ed6759b787c.png" title=" 1: Register account ({fullname=benar, emailReg=benar, passwordReg=1234, result=success}) (completed)" width="809"/>
+                <img src="731f2d5e65f52e6f18ed786e82312868c45da0a3a93b12f69eba2a4af226a333.png" title=" 2: Register account ({fullname=, emailReg=naixxy@co.uk, passwordReg=1234, result=failed})" width="809"/>
+                <img src="731f2d5e65f52e6f18ed786e82312868c45da0a3a93b12f69eba2a4af226a333.png" title=" Given I am on the register page" width="809"/>
+                <img src="731f2d5e65f52e6f18ed786e82312868c45da0a3a93b12f69eba2a4af226a333.png" title=" When I input fullname register &quot;&quot;" width="809"/>
+                <img src="99efca98c5edb3ba7cff1767d8d88c3acd7a8c891c6c07fe7e1870461bf7ea39.png" title=" When I input fullname register &quot;&quot; (completed)" width="809"/>
+                <img src="99efca98c5edb3ba7cff1767d8d88c3acd7a8c891c6c07fe7e1870461bf7ea39.png" title=" And I input email register &quot;naixxy@co.uk&quot;" width="809"/>
+                <img src="a3c62684f33ecf1bf24f20009104f7db95995ceed810188e1e7201155cb8fb66.png" title=" And I input email register &quot;naixxy@co.uk&quot; (completed)" width="809"/>
+                <img src="a3c62684f33ecf1bf24f20009104f7db95995ceed810188e1e7201155cb8fb66.png" title=" And I input password register &quot;1234&quot;" width="809"/>
+                <img src="92894923bcc5104b4193f0efb74753eee26c20fa1d2a98b6098cb211c7b763ce.png" title=" And I input password register &quot;1234&quot; (completed)" width="809"/>
+                <img src="92894923bcc5104b4193f0efb74753eee26c20fa1d2a98b6098cb211c7b763ce.png" title=" And I click submit register button" width="809"/>
+                <img src="f7f3a3b02ea005e542751b76f3b84cc4b300f8da03044847782756375cc50b24.png" title=" And I click submit register button (completed)" width="809"/>
+                <img src="f7f3a3b02ea005e542751b76f3b84cc4b300f8da03044847782756375cc50b24.png" title=" Then I will get the result register &quot;failed&quot;" width="809"/>
+                <img src="6e5763890f20aa0fa237d9e844654afbf6356ebbb4df2639a807291f79278918.png" title=" Then I will get the result register &quot;failed&quot; (completed)" width="809"/>
+                <img src="6e5763890f20aa0fa237d9e844654afbf6356ebbb4df2639a807291f79278918.png" title=" 2: Register account ({fullname=, emailReg=naixxy@co.uk, passwordReg=1234, result=failed}) (completed)" width="809"/>
+                <img src="731f2d5e65f52e6f18ed786e82312868c45da0a3a93b12f69eba2a4af226a333.png" title=" 3: Register account ({fullname=naixxy12, emailReg=, passwordReg=1234, result=failed})" width="809"/>
+                <img src="731f2d5e65f52e6f18ed786e82312868c45da0a3a93b12f69eba2a4af226a333.png" title=" Given I am on the register page" width="809"/>
+                <img src="731f2d5e65f52e6f18ed786e82312868c45da0a3a93b12f69eba2a4af226a333.png" title=" When I input fullname register &quot;naixxy12&quot;" width="809"/>
+                <img src="7ec75652a39c38361f8df9af65edb2df54ad344f30b893bb8641bfaec9d8b004.png" title=" When I input fullname register &quot;naixxy12&quot; (completed)" width="809"/>
+                <img src="7ec75652a39c38361f8df9af65edb2df54ad344f30b893bb8641bfaec9d8b004.png" title=" And I input email register &quot;&quot;" width="809"/>
+                <img src="ac736220f9eaf27b7b022cd1f1feffeb27f1cc703a4d80ef51403ab543f79385.png" title=" And I input email register &quot;&quot; (completed)" width="809"/>
+                <img src="ac736220f9eaf27b7b022cd1f1feffeb27f1cc703a4d80ef51403ab543f79385.png" title=" And I input password register &quot;1234&quot;" width="809"/>
+                <img src="e1708dfd8f80d99bf79ec1207cb2da88911b974239795674c180e9b362ecdd6f.png" title=" And I input password register &quot;1234&quot; (completed)" width="809"/>
+                <img src="e1708dfd8f80d99bf79ec1207cb2da88911b974239795674c180e9b362ecdd6f.png" title=" And I click submit register button" width="809"/>
+                <img src="df4b9a49f42e8830c00fa59bdc0a496b8f3869a1d947d8b879eeeb49f9ab85cb.png" title=" And I click submit register button (completed)" width="809"/>
+                <img src="df4b9a49f42e8830c00fa59bdc0a496b8f3869a1d947d8b879eeeb49f9ab85cb.png" title=" Then I will get the result register &quot;failed&quot;" width="809"/>
+                <img src="19c048f465ccb13c9d7627e3eae7a076f6487a48cf219854dbccfb0726897331.png" title=" Then I will get the result register &quot;failed&quot; (completed)" width="809"/>
+                <img src="19c048f465ccb13c9d7627e3eae7a076f6487a48cf219854dbccfb0726897331.png" title=" 3: Register account ({fullname=naixxy12, emailReg=, passwordReg=1234, result=failed}) (completed)" width="809"/>
+                <img src="731f2d5e65f52e6f18ed786e82312868c45da0a3a93b12f69eba2a4af226a333.png" title=" 4: Register account ({fullname=naixxy12, emailReg=naixxy@co.uk, passwordReg=, result=failed})" width="809"/>
+                <img src="731f2d5e65f52e6f18ed786e82312868c45da0a3a93b12f69eba2a4af226a333.png" title=" Given I am on the register page" width="809"/>
+                <img src="731f2d5e65f52e6f18ed786e82312868c45da0a3a93b12f69eba2a4af226a333.png" title=" When I input fullname register &quot;naixxy12&quot;" width="809"/>
+                <img src="3ab1ff575334d09ecc16052dfa595ff6a66958f87b9a1e2fd6ed576d93a40c14.png" title=" When I input fullname register &quot;naixxy12&quot; (completed)" width="809"/>
+                <img src="3ab1ff575334d09ecc16052dfa595ff6a66958f87b9a1e2fd6ed576d93a40c14.png" title=" And I input email register &quot;naixxy@co.uk&quot;" width="809"/>
+                <img src="a6e97b0dde1cf11695452685c8846b84a8fb544683ed60d7d73f095065af5d6a.png" title=" And I input email register &quot;naixxy@co.uk&quot; (completed)" width="809"/>
+                <img src="a6e97b0dde1cf11695452685c8846b84a8fb544683ed60d7d73f095065af5d6a.png" title=" And I input password register &quot;&quot;" width="809"/>
+                <img src="f2a9ac77c906524191dc5ed390c8d37711dafeafb39d436f150475afd1204bd4.png" title=" And I input password register &quot;&quot; (completed)" width="809"/>
+                <img src="f2a9ac77c906524191dc5ed390c8d37711dafeafb39d436f150475afd1204bd4.png" title=" And I click submit register button" width="809"/>
+                <img src="5f7d37c5dde3f372689f53b581f5f468c5ce544279c8a81486e22b6fb96810b0.png" title=" And I click submit register button (completed)" width="809"/>
+                <img src="5f7d37c5dde3f372689f53b581f5f468c5ce544279c8a81486e22b6fb96810b0.png" title=" Then I will get the result register &quot;failed&quot;" width="809"/>
+                <img src="1452bffcac1be52f45538f232bc3c73bf1f41707503e22b8297f12a97aa85285.png" title=" Then I will get the result register &quot;failed&quot; (completed)" width="809"/>
+                <img src="1452bffcac1be52f45538f232bc3c73bf1f41707503e22b8297f12a97aa85285.png" title=" 4: Register account ({fullname=naixxy12, emailReg=naixxy@co.uk, passwordReg=, result=failed}) (completed)" width="809"/>
+                <img src="731f2d5e65f52e6f18ed786e82312868c45da0a3a93b12f69eba2a4af226a333.png" title=" 5: Register account ({fullname=, emailReg=, passwordReg=, result=failed})" width="809"/>
+                <img src="731f2d5e65f52e6f18ed786e82312868c45da0a3a93b12f69eba2a4af226a333.png" title=" Given I am on the register page" width="809"/>
+                <img src="731f2d5e65f52e6f18ed786e82312868c45da0a3a93b12f69eba2a4af226a333.png" title=" When I input fullname register &quot;&quot;" width="809"/>
+                <img src="e5273c2b5705baddd6bf57e7fbb889a8d7f026e073ad21331ad94a4bece0db71.png" title=" When I input fullname register &quot;&quot; (completed)" width="809"/>
+                <img src="e5273c2b5705baddd6bf57e7fbb889a8d7f026e073ad21331ad94a4bece0db71.png" title=" And I input email register &quot;&quot;" width="809"/>
+                <img src="9c38a9fdd5e10c2281a6035aab4d1515a74f7dc41de5f3c465af2f72d0038677.png" title=" And I input email register &quot;&quot; (completed)" width="809"/>
+                <img src="9c38a9fdd5e10c2281a6035aab4d1515a74f7dc41de5f3c465af2f72d0038677.png" title=" And I input password register &quot;&quot;" width="809"/>
+                <img src="535286b029fcee157156f8a3f953bd4263f36cfa4ab904daa0f259b29e639e8c.png" title=" And I input password register &quot;&quot; (completed)" width="809"/>
+                <img src="535286b029fcee157156f8a3f953bd4263f36cfa4ab904daa0f259b29e639e8c.png" title=" And I click submit register button" width="809"/>
+                <img src="637ffd149c8e77d044c8995548f858e1443ece75c5ccd5de35a9bd7bb42f7a9e.png" title=" And I click submit register button (completed)" width="809"/>
+                <img src="637ffd149c8e77d044c8995548f858e1443ece75c5ccd5de35a9bd7bb42f7a9e.png" title=" Then I will get the result register &quot;failed&quot;" width="809"/>
+                <img src="36440dcac262f175286aafe2a35ce01a951fa56c08af3abefa24b1d44e237c04.png" title=" Then I will get the result register &quot;failed&quot; (completed)" width="809"/>
+                <img src="36440dcac262f175286aafe2a35ce01a951fa56c08af3abefa24b1d44e237c04.png" title=" 5: Register account ({fullname=, emailReg=, passwordReg=, result=failed}) (completed): <span class='success-color'>SUCCESS</span>" width="809"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 3.2.1</span>
+</div>
+</body>
+</html>

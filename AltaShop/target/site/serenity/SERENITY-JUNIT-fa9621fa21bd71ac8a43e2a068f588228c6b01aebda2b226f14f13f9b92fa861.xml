@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Home" skipped="0" tests="4" time="16.81" timestamp="2022-10-29 06:12:10"><testcase name="Home detail product"/><testcase name="Home product to buy"/><testcase name="Transaction list"/><testcase name="Transaction list without login"/></testsuite>
