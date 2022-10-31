@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>Get User</title>
+    <title>Delete a product</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
@@ -125,9 +125,9 @@
         <span class="breadcrumbs">
             <a href="index.html" class="breadcrumbs">Home</a>
 
-            > <a href="87db57a66b2ad42e7bd10baf2fad7120fe921531847bbaf7316ade3147012fa9.html">Auth</a>
-            > <a href="87a86ed1ca97db083a94ba95d8dd8f842543c4c6635313e42023274132362acf.html">Get User Info</a>
-        > Get User
+            > <a href="13528ae9e2abfbca4adeff40aa0d5a8d2b7f8a3bfa4def1cdeee7f4b60bd1f5e.html">Product</a>
+            > <a href="6afc6db8eb35342175679aec12ac6ac44bed98404f2c3e6af24ad85884f715e2.html">Product</a>
+        > Delete a product
         </span>
         </div>
         <div class="rightbg"></div>
@@ -166,7 +166,7 @@
                                 <div>
                                     <h3 class="discreet-story-header">
                                         <i class="fa fa-2x fa-comments-o"></i>
-                                        <span class="story-header-title">Get User Info </span>
+                                        <span class="story-header-title">Product </span>
                                     </h3>
 
                                 </div>
@@ -184,7 +184,7 @@
                             <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
                                 <span class="success-color">
-                                    Get User
+                                    Delete a product
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -234,7 +234,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="top-level-step">
-                                                Given I set url Get user
+                                                Given I set url get product
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -242,7 +242,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">400ms</span></td>
+                        <td width="100"><span class="top-level-step">003ms</span></td>
                     </tr>
                     <tr class="test-SUCCESS">
 
@@ -260,7 +260,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                When I want to get user information
+                                                When I want to delete product
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -269,7 +269,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">4s 465ms</span></td>
+                        <td width="100"><span class="top-level-step">1s 265ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -286,7 +286,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                GET https://alta-shop.herokuapp.com/api/auth/info
+                                                DELETE https://alta-shop.herokuapp.com/api/products/1
                                         </span>
                                 <span class="evidence">
                                         <span class="piece-of-evidence">
@@ -302,19 +302,19 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h4>Response</h4>
-                                        <p>URL: https://alta-shop.herokuapp.com/api/auth/info</p>
+                                        <p>URL: https://alta-shop.herokuapp.com/api/products/1</p>
                                         <p>Status code: 200</p>
-                                        <p>Content Type: application/json</p>
+                                        <p>Content Type: null</p>
                                         <h4>Request Headers</h4>
-                                        <pre>Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6Im5haW5haSIsIkVtYWlsIjoibmFpeHh5QG1haWwuY28ifQ.ocYBbSLqpHsF6Zlxr4eMamLhr0hAfeosG0mYw5V-FUE<br>Accept=*/*<br>Content-Type= application/json; charset=UTF-8</pre>
+                                        <pre>Accept=*/*</pre>
                                         <h4>Content Body</h4>
                                         <pre></pre>
                                         <h4>Request Cookies</h4>
                                         <pre></pre>
                                         <h4>Response Headers</h4>
-                                        <pre>Server: Cowboy<br>Connection: keep-alive<br>Content-Type: application/json<br>Date: Mon, 31 Oct 2022 03:01:14 GMT<br>Content-Length: 82<br>Via: 1.1 vegur</pre>
+                                        <pre>Server: Cowboy<br>Connection: keep-alive<br>Content-Type: application/json<br>Date: Mon, 31 Oct 2022 03:01:23 GMT<br>Content-Length: 14<br>Via: 1.1 vegur</pre>
                                     <h4>Response Body</h4>
-                                        <pre>{<br>    &quot;data&quot;: {<br>        &quot;ID&quot;: 549,<br>        &quot;Fullname&quot;: &quot;nainai&quot;,<br>        &quot;Email&quot;: &quot;naixxy@mail.co&quot;,<br>        &quot;Password&quot;: &quot;nai&quot;<br>    }<br>}</pre>
+                                        <pre>{<br>    &quot;data&quot;: null<br>}</pre>
                                 </div>
                             </div>
                         </div>
@@ -343,7 +343,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="top-level-step">
-                                                Then I will get code get user
+                                                Then I will get code
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -351,12 +351,12 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">056ms</span></td>
+                        <td width="100"><span class="top-level-step">003ms</span></td>
                     </tr>
                 <tr class="test-SUCCESS">
                         <td colspan="2"></td>
                     <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>5.31s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>1.28s</em></span></td>
                 </tr>
 
             </table>

@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Order" skipped="0" tests="6" time="11.78" timestamp="2022-10-31 07:11:12"><testcase name="Create order"/><testcase name="Get all order"/><testcase name="Get order by id"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Order" skipped="0" tests="6" time="11.76" timestamp="2022-10-31 10:01:08"><testcase name="Create order"/><testcase name="Get all order"/><testcase name="Get order by id"/></testsuite>

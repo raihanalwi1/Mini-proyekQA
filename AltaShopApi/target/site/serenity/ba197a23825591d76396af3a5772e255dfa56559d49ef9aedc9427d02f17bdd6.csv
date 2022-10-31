@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Order","Create order","SUCCESS","2022-10-31T07:11:12.9021711+07:00[Asia/Jakarta]","0.0","6.49"
-"Order","Get all order","SUCCESS","2022-10-31T07:11:19.4014061+07:00[Asia/Jakarta]","0.0","1.45"
-"Order","Get order by id","SUCCESS","2022-10-31T07:11:20.8587644+07:00[Asia/Jakarta]","0.0","3.84"
+"Order","Create order","SUCCESS","2022-10-31T10:01:08.4845582+07:00[Asia/Jakarta]","0.0","6.46"
+"Order","Get all order","SUCCESS","2022-10-31T10:01:14.9556114+07:00[Asia/Jakarta]","0.0","1.48"
+"Order","Get order by id","SUCCESS","2022-10-31T10:01:16.4441273+07:00[Asia/Jakarta]","0.0","3.81"
