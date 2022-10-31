@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get user Info","Get User","SUCCESS","2022-10-31T07:11:12.8851802+07:00[Asia/Jakarta]","0.0","5.08"
+"Login","Login with email and password","SUCCESS","2022-10-31T07:11:12.820216+07:00[Asia/Jakarta]","0.0","10.55"
+"Register","Register with email password and fullname","SUCCESS","2022-10-31T07:11:12.9331491+07:00[Asia/Jakarta]","0.0","11.73"

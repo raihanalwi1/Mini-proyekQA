@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Product Category","Product category create","SUCCESS","2022-10-31T07:11:12.9161611+07:00[Asia/Jakarta]","0.0","9.16"
+"Product Category","Get all category Product","SUCCESS","2022-10-31T07:11:22.1008565+07:00[Asia/Jakarta]","0.0","1.28"
+"Product Category","Get category by id","SUCCESS","2022-10-31T07:11:23.3985952+07:00[Asia/Jakarta]","0.0","3.89"
+"Product","Get Product","SUCCESS","2022-10-31T07:11:12.6194637+07:00[Asia/Jakarta]","0.0","5.6"
+"Product","Get Product By id","SUCCESS","2022-10-31T07:11:18.2296358+07:00[Asia/Jakarta]","0.0","1.27"
