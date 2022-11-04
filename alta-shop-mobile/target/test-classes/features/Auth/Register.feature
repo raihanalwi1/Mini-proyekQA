@@ -14,7 +14,7 @@ Feature: Register
     Then I get result register "<result>"
     Examples:
     | fullname        | email          | password  | result |
-    | bapa budi       | babu3@gmail.com | bapabudi1 | pass |
+    | bapa budi       | benar | bapabudi1 | pass |
     |                 | babu@gmail.com | bapabudi1 | reqFullname |
     | anak budi       |                | bapabudi1 | reqEmail |
     | bukan bapa budi | babu@gmail.com |         | reqPassword |

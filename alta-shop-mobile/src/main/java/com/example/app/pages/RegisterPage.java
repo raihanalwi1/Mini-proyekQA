@@ -1,6 +1,7 @@
 package com.example.app.pages;
 
 import com.example.app.base.BasePageObject;
+import com.example.app.utils.GeneratedString;
 import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.By;
 
@@ -41,6 +42,10 @@ public class RegisterPage extends BasePageObject {
     public void inputTextEmail(String email) throws InterruptedException {
         click(textEmail);
         clear(textEmail);
+        GeneratedString generatedString = new GeneratedString();
+        if (email.equals("benar")){
+            email = generatedString.randomEmail();
+        }
         Thread.sleep(2000);
         AndroidElement elm = find(textEmail);
         elm.sendKeys(email);

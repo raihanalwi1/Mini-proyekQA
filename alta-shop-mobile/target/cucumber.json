@@ -3,660 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-11-03T05:27:34.527Z",
+        "start_timestamp": "2022-11-04T15:45:13.860Z",
         "before": [
           {
             "result": {
-              "duration": 20390539500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.example.hook.AndroidDriverHook.before()"
-            }
-          }
-        ],
-        "line": 15,
-        "name": "Login user",
-        "description": "",
-        "id": "authorized;login-user;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 520752700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.example.hook.AndroidDriverHook.after()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3242558400,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I am on the home page",
-            "match": {
-              "location": "com.example.steps.HomeStep.iAmOnTheHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2645083100,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I click button login account",
-            "match": {
-              "location": "com.example.steps.LoginStep.iClickButtonLoginAccount()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 7235064900,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I input email \"nai@gmail.com\" and password \"password\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"nai@gmail.com\"",
-                  "offset": 14
-                },
-                {
-                  "val": "\"password\"",
-                  "offset": 43
-                }
-              ],
-              "location": "com.example.steps.LoginStep.iInputUsernameAndPassword(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 166896900,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I click button login",
-            "match": {
-              "location": "com.example.steps.LoginStep.iClickButtonLogin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 6306697300,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I get result \"pass\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"pass\"",
-                  "offset": 13
-                }
-              ],
-              "location": "com.example.steps.LoginStep.iGetResult(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-11-03T05:28:15.406Z",
-        "before": [
-          {
-            "result": {
-              "duration": 19711535500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.example.hook.AndroidDriverHook.before()"
-            }
-          }
-        ],
-        "line": 16,
-        "name": "Login user",
-        "description": "",
-        "id": "authorized;login-user;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 574901900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.example.hook.AndroidDriverHook.after()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2332690800,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I am on the home page",
-            "match": {
-              "location": "com.example.steps.HomeStep.iAmOnTheHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2170304900,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I click button login account",
-            "match": {
-              "location": "com.example.steps.LoginStep.iClickButtonLoginAccount()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 7003577700,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I input email \"\" and password \"132\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"\"",
-                  "offset": 14
-                },
-                {
-                  "val": "\"132\"",
-                  "offset": 30
-                }
-              ],
-              "location": "com.example.steps.LoginStep.iInputUsernameAndPassword(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1222000600,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I click button login",
-            "match": {
-              "location": "com.example.steps.LoginStep.iClickButtonLogin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 119925900,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I get result \"reqEmail\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"reqEmail\"",
-                  "offset": 13
-                }
-              ],
-              "location": "com.example.steps.LoginStep.iGetResult(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-11-03T05:28:48.578Z",
-        "before": [
-          {
-            "result": {
-              "duration": 19423823000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.example.hook.AndroidDriverHook.before()"
-            }
-          }
-        ],
-        "line": 17,
-        "name": "Login user",
-        "description": "",
-        "id": "authorized;login-user;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 494829200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.example.hook.AndroidDriverHook.after()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2378982500,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I am on the home page",
-            "match": {
-              "location": "com.example.steps.HomeStep.iAmOnTheHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2160834400,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I click button login account",
-            "match": {
-              "location": "com.example.steps.LoginStep.iClickButtonLoginAccount()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 7815405400,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I input email \"pai\" and password \"\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"pai\"",
-                  "offset": 14
-                },
-                {
-                  "val": "\"\"",
-                  "offset": 33
-                }
-              ],
-              "location": "com.example.steps.LoginStep.iInputUsernameAndPassword(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 615904500,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I click button login",
-            "match": {
-              "location": "com.example.steps.LoginStep.iClickButtonLogin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2156287300,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I get result \"reqPassword\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"reqPassword\"",
-                  "offset": 13
-                }
-              ],
-              "location": "com.example.steps.LoginStep.iGetResult(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-11-03T05:29:23.655Z",
-        "before": [
-          {
-            "result": {
-              "duration": 19507693400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.example.hook.AndroidDriverHook.before()"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "Login user",
-        "description": "",
-        "id": "authorized;login-user;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 546052200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.example.hook.AndroidDriverHook.after()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2322551300,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I am on the home page",
-            "match": {
-              "location": "com.example.steps.HomeStep.iAmOnTheHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2171720000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I click button login account",
-            "match": {
-              "location": "com.example.steps.LoginStep.iClickButtonLoginAccount()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 6713576100,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I input email \"inisalah\" and password \"password\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"inisalah\"",
-                  "offset": 14
-                },
-                {
-                  "val": "\"password\"",
-                  "offset": 38
-                }
-              ],
-              "location": "com.example.steps.LoginStep.iInputUsernameAndPassword(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 136921900,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I click button login",
-            "match": {
-              "location": "com.example.steps.LoginStep.iClickButtonLogin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3024938300,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I get result \"error\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"error\"",
-                  "offset": 13
-                }
-              ],
-              "location": "com.example.steps.LoginStep.iGetResult(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-11-03T05:29:58.110Z",
-        "before": [
-          {
-            "result": {
-              "duration": 19738877500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.example.hook.AndroidDriverHook.before()"
-            }
-          }
-        ],
-        "line": 19,
-        "name": "Login user",
-        "description": "",
-        "id": "authorized;login-user;;6",
-        "after": [
-          {
-            "result": {
-              "duration": 502618500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.example.hook.AndroidDriverHook.after()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2325338400,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I am on the home page",
-            "match": {
-              "location": "com.example.steps.HomeStep.iAmOnTheHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2160632500,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I click button login account",
-            "match": {
-              "location": "com.example.steps.LoginStep.iClickButtonLoginAccount()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 8228502200,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I input email \"nai@gmail.com\" and password \"iya salah\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"nai@gmail.com\"",
-                  "offset": 14
-                },
-                {
-                  "val": "\"iya salah\"",
-                  "offset": 43
-                }
-              ],
-              "location": "com.example.steps.LoginStep.iInputUsernameAndPassword(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 893971700,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I click button login",
-            "match": {
-              "location": "com.example.steps.LoginStep.iClickButtonLogin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2196035400,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I get result \"error\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"error\"",
-                  "offset": 13
-                }
-              ],
-              "location": "com.example.steps.LoginStep.iGetResult(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-11-03T05:30:34.187Z",
-        "before": [
-          {
-            "result": {
-              "duration": 19831510400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.example.hook.AndroidDriverHook.before()"
-            }
-          }
-        ],
-        "line": 21,
-        "name": "Logout user",
-        "description": "",
-        "id": "authorized;logout-user",
-        "after": [
-          {
-            "result": {
-              "duration": 524118800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.example.hook.AndroidDriverHook.after()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2288839000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "I am on the home page",
-            "match": {
-              "location": "com.example.steps.HomeStep.iAmOnTheHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2156415700,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "I click button login account",
-            "match": {
-              "location": "com.example.steps.LoginStep.iClickButtonLoginAccount()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5577719700,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "I will login",
-            "match": {
-              "location": "com.example.steps.LoginStep.iWillLogin()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 164896300,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "I click button logout",
-            "match": {
-              "location": "com.example.steps.LoginStep.iClickButtonLogout()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4743130900,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "I am on the home page",
-            "match": {
-              "location": "com.example.steps.HomeStep.iAmOnTheHomePage()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Authorized",
-    "description": "  As a user\n  I want to user login\n  So I can manage my account",
-    "id": "authorized",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Auth/Authorized.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2022-11-03T05:31:09.507Z",
-        "before": [
-          {
-            "result": {
-              "duration": 19900890300,
+              "duration": 23967108500,
               "status": "passed"
             },
             "match": {
@@ -671,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 510866600,
+              "duration": 649262400,
               "status": "passed"
             },
             "match": {
@@ -684,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2331203500,
+              "duration": 2808095800,
               "status": "passed"
             },
             "line": 7,
@@ -696,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 2467670600,
+              "duration": 2212910700,
               "status": "passed"
             },
             "line": 8,
@@ -708,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 6354365200,
+              "duration": 6471709200,
               "status": "passed"
             },
             "line": 9,
@@ -720,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 2426191700,
+              "duration": 2362548500,
               "status": "passed"
             },
             "line": 10,
@@ -738,15 +89,15 @@
           },
           {
             "result": {
-              "duration": 3783487800,
+              "duration": 3776819500,
               "status": "passed"
             },
             "line": 11,
-            "name": "I input email \"babu3@gmail.com\"",
+            "name": "I input email \"benar\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"babu3@gmail.com\"",
+                  "val": "\"benar\"",
                   "offset": 14
                 }
               ],
@@ -756,7 +107,7 @@
           },
           {
             "result": {
-              "duration": 3158537700,
+              "duration": 3823872100,
               "status": "passed"
             },
             "line": 12,
@@ -774,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 1083293400,
+              "duration": 1089250000,
               "status": "passed"
             },
             "line": 13,
@@ -786,7 +137,7 @@
           },
           {
             "result": {
-              "duration": 5067132200,
+              "duration": 5164581300,
               "status": "passed"
             },
             "line": 14,
@@ -805,11 +156,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-11-03T05:31:56.641Z",
+        "start_timestamp": "2022-11-04T15:46:06.581Z",
         "before": [
           {
             "result": {
-              "duration": 19554299200,
+              "duration": 20362339800,
               "status": "passed"
             },
             "match": {
@@ -824,7 +175,7 @@
         "after": [
           {
             "result": {
-              "duration": 529715000,
+              "duration": 528728800,
               "status": "passed"
             },
             "match": {
@@ -837,7 +188,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2316025500,
+              "duration": 2400106300,
               "status": "passed"
             },
             "line": 7,
@@ -849,7 +200,7 @@
           },
           {
             "result": {
-              "duration": 2191735500,
+              "duration": 2338508700,
               "status": "passed"
             },
             "line": 8,
@@ -861,7 +212,7 @@
           },
           {
             "result": {
-              "duration": 4393805400,
+              "duration": 5763825700,
               "status": "passed"
             },
             "line": 9,
@@ -873,7 +224,7 @@
           },
           {
             "result": {
-              "duration": 4462004500,
+              "duration": 3117744100,
               "status": "passed"
             },
             "line": 10,
@@ -891,7 +242,7 @@
           },
           {
             "result": {
-              "duration": 4460569600,
+              "duration": 3369640900,
               "status": "passed"
             },
             "line": 11,
@@ -909,7 +260,7 @@
           },
           {
             "result": {
-              "duration": 3144468600,
+              "duration": 3261603800,
               "status": "passed"
             },
             "line": 12,
@@ -927,7 +278,7 @@
           },
           {
             "result": {
-              "duration": 684022700,
+              "duration": 913960100,
               "status": "passed"
             },
             "line": 13,
@@ -939,7 +290,7 @@
           },
           {
             "result": {
-              "duration": 2161571900,
+              "duration": 83946900,
               "status": "passed"
             },
             "line": 14,
@@ -958,11 +309,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-11-03T05:32:40.570Z",
+        "start_timestamp": "2022-11-04T15:46:48.761Z",
         "before": [
           {
             "result": {
-              "duration": 19551444100,
+              "duration": 20076335700,
               "status": "passed"
             },
             "match": {
@@ -977,7 +328,7 @@
         "after": [
           {
             "result": {
-              "duration": 506818900,
+              "duration": 558836100,
               "status": "passed"
             },
             "match": {
@@ -990,7 +341,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2321087000,
+              "duration": 2385726900,
               "status": "passed"
             },
             "line": 7,
@@ -1002,7 +353,7 @@
           },
           {
             "result": {
-              "duration": 2177755000,
+              "duration": 2574811500,
               "status": "passed"
             },
             "line": 8,
@@ -1014,7 +365,7 @@
           },
           {
             "result": {
-              "duration": 4357739000,
+              "duration": 5085577800,
               "status": "passed"
             },
             "line": 9,
@@ -1026,7 +377,7 @@
           },
           {
             "result": {
-              "duration": 2731635100,
+              "duration": 3205240700,
               "status": "passed"
             },
             "line": 10,
@@ -1044,7 +395,7 @@
           },
           {
             "result": {
-              "duration": 3505402600,
+              "duration": 3247899900,
               "status": "passed"
             },
             "line": 11,
@@ -1062,7 +413,7 @@
           },
           {
             "result": {
-              "duration": 3090710400,
+              "duration": 3116384900,
               "status": "passed"
             },
             "line": 12,
@@ -1080,7 +431,7 @@
           },
           {
             "result": {
-              "duration": 756049300,
+              "duration": 796729600,
               "status": "passed"
             },
             "line": 13,
@@ -1092,7 +443,7 @@
           },
           {
             "result": {
-              "duration": 2145146100,
+              "duration": 2160838900,
               "status": "passed"
             },
             "line": 14,
@@ -1111,11 +462,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-11-03T05:33:21.746Z",
+        "start_timestamp": "2022-11-04T15:47:32.003Z",
         "before": [
           {
             "result": {
-              "duration": 19491251800,
+              "duration": 20309993900,
               "status": "passed"
             },
             "match": {
@@ -1130,7 +481,7 @@
         "after": [
           {
             "result": {
-              "duration": 511678700,
+              "duration": 470709600,
               "status": "passed"
             },
             "match": {
@@ -1143,7 +494,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2307175800,
+              "duration": 2406789700,
               "status": "passed"
             },
             "line": 7,
@@ -1155,7 +506,7 @@
           },
           {
             "result": {
-              "duration": 2157520800,
+              "duration": 2612748900,
               "status": "passed"
             },
             "line": 8,
@@ -1167,7 +518,7 @@
           },
           {
             "result": {
-              "duration": 4357098100,
+              "duration": 4244514500,
               "status": "passed"
             },
             "line": 9,
@@ -1179,7 +530,7 @@
           },
           {
             "result": {
-              "duration": 2643998400,
+              "duration": 3671427100,
               "status": "passed"
             },
             "line": 10,
@@ -1197,7 +548,7 @@
           },
           {
             "result": {
-              "duration": 3740288000,
+              "duration": 3652673900,
               "status": "passed"
             },
             "line": 11,
@@ -1215,7 +566,7 @@
           },
           {
             "result": {
-              "duration": 3122251200,
+              "duration": 3051771600,
               "status": "passed"
             },
             "line": 12,
@@ -1233,7 +584,7 @@
           },
           {
             "result": {
-              "duration": 666176400,
+              "duration": 988388300,
               "status": "passed"
             },
             "line": 13,
@@ -1245,7 +596,7 @@
           },
           {
             "result": {
-              "duration": 2145909200,
+              "duration": 89943800,
               "status": "passed"
             },
             "line": 14,
@@ -1264,11 +615,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-11-03T05:34:02.917Z",
+        "start_timestamp": "2022-11-04T15:48:13.541Z",
         "before": [
           {
             "result": {
-              "duration": 19852629600,
+              "duration": 20411107000,
               "status": "passed"
             },
             "match": {
@@ -1283,7 +634,7 @@
         "after": [
           {
             "result": {
-              "duration": 495692100,
+              "duration": 533516200,
               "status": "passed"
             },
             "match": {
@@ -1296,7 +647,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2332801800,
+              "duration": 2350491600,
               "status": "passed"
             },
             "line": 7,
@@ -1308,7 +659,7 @@
           },
           {
             "result": {
-              "duration": 2280021300,
+              "duration": 2370060800,
               "status": "passed"
             },
             "line": 8,
@@ -1320,7 +671,7 @@
           },
           {
             "result": {
-              "duration": 4535026200,
+              "duration": 4399590600,
               "status": "passed"
             },
             "line": 9,
@@ -1332,7 +683,7 @@
           },
           {
             "result": {
-              "duration": 2588009300,
+              "duration": 5405826100,
               "status": "passed"
             },
             "line": 10,
@@ -1350,7 +701,7 @@
           },
           {
             "result": {
-              "duration": 3912123300,
+              "duration": 3195766300,
               "status": "passed"
             },
             "line": 11,
@@ -1368,7 +719,7 @@
           },
           {
             "result": {
-              "duration": 3045732300,
+              "duration": 3140587100,
               "status": "passed"
             },
             "line": 12,
@@ -1386,7 +737,7 @@
           },
           {
             "result": {
-              "duration": 789607500,
+              "duration": 1191811300,
               "status": "passed"
             },
             "line": 13,
@@ -1398,7 +749,7 @@
           },
           {
             "result": {
-              "duration": 2593122900,
+              "duration": 2185055400,
               "status": "passed"
             },
             "line": 14,
@@ -1422,86 +773,6 @@
     "id": "register",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/Auth/Register.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2022-11-03T05:34:45.365Z",
-        "before": [
-          {
-            "result": {
-              "duration": 19489968900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.example.hook.AndroidDriverHook.before()"
-            }
-          }
-        ],
-        "line": 6,
-        "name": "Add to cart",
-        "description": "",
-        "id": "home;add-to-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 450740300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.example.hook.AndroidDriverHook.after()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2357735100,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I am on the home page",
-            "match": {
-              "location": "com.example.steps.HomeStep.iAmOnTheHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4896350000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I click button buy",
-            "match": {
-              "location": "com.example.steps.HomeStep.iClickButtonBuy()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 755295900,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "So product will to cart",
-            "match": {
-              "location": "com.example.steps.HomeStep.soProductWillToCart()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Home",
-    "description": "  As a user\n  I want to see home page\n  So I can manage home page",
-    "id": "home",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Home.feature",
     "tags": []
   }
 ]
